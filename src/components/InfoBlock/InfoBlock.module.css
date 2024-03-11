@@ -1,0 +1,31 @@
+.info__block h1 {
+    font-weight: 400;
+}
+
+.info__block {
+    padding: 10px;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.info__block img {
+    height: 100%;
+    transition: 0.2s ease-in-out;
+}
+
+.info__block:hover img {
+    transform: scale(1.1);
+}
+
+@media (width < 600px) {
+    .info__block {
+        width: 100%;
+    }
+}

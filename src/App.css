@@ -1,0 +1,16 @@
+#root {
+  width: 100%;
+  place-self: start;
+}
+
+#root * {
+  -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

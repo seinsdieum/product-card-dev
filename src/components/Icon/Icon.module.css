@@ -1,0 +1,21 @@
+.Icon {
+    min-width: 36px;
+    min-height: 36px;
+    max-width: 36px;
+    max-height: 36px;
+    }
+
+/*.Icon:hover {
+    filter: invert(44%) sepia(90%) saturate(4289%) hue-rotate(226deg) brightness(94%) contrast(102%);
+    fill: #535bf2;
+    cursor: pointer;
+}*/
+
+@media (width < 600px) {
+    .Icon {
+        min-width: 36px;
+        min-height: 36px;
+        max-width: 36px;
+        max-height: 36px;
+    }
+}

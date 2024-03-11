@@ -1,0 +1,26 @@
+.section__title {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 5px;
+}
+.section__title h1 {
+    font-weight: 400;
+}
+
+.section__title:not(:first-child) {
+    padding-top: 20px;
+}
+
+.section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section:not(:last-child) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
